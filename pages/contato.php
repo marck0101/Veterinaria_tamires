@@ -2,7 +2,7 @@
 $page_title = 'Agendar visita — Tamires Müller Veterinária';
 $page_desc  = 'Solicite uma visita técnica ou saiba mais sobre a parceria SENAR. Atendimento em São Martinho e região.';
 
-require_once __DIR__ . '/../config/db.php';
+require_once __DIR__ . '/../config/conexao.php';
 require_once __DIR__ . '/../config/functions.php';
 require_once __DIR__ . '/../includes/header.php';
 

@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     die(json_encode(['erro' => 'Método não permitido']));
 }
 
-require_once __DIR__ . '/../config/db.php';
+require_once __DIR__ . '/../config/conexao.php';
 
 $email = filter_var(trim($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
 

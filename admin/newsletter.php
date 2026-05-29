@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/admin-auth.php';
-require_once __DIR__ . '/../config/db.php';
+require_once __DIR__ . '/../config/conexao.php';
 
 if (isset($_GET['remover'])) {
     $pdo->prepare("UPDATE newsletter SET ativo = 0 WHERE id = ?")->execute([(int)$_GET['remover']]);

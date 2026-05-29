@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Tamires  — Médica Veterinária em São Martinho, RS';
 $page_desc  = 'Atendimento veterinário especializado em bovinos leiteiros e consultoria de propriedades rurais na região de São Martinho, RS — em parceria com o SENAR.';
-require_once 'config/db.php';
+require_once 'config/conexao.php';
 require_once 'config/functions.php';
 $servicos = getServicos($pdo);
 $posts    = getPosts($pdo, 3);

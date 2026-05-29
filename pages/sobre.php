@@ -1,7 +1,7 @@
 <?php
 $page_title = 'Sobre — Tamires Müller, Médica Veterinária';
 $page_desc  = 'Conheça a trajetória de Tamires Laís Müller, médica veterinária especializada em bovinos leiteiros, filha de produtor rural e parceira SENAR na região de São Martinho, RS.';
-require_once __DIR__ . '/../config/db.php';
+require_once __DIR__ . '/../config/conexao.php';
 require_once __DIR__ . '/../config/functions.php';
 require_once __DIR__ . '/../includes/header.php';
 ?>

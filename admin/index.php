@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/admin-auth.php';
-require_once __DIR__ . '/../config/db.php';
+require_once __DIR__ . '/../config/conexao.php';
 
 $total_contatos    = $pdo->query("SELECT COUNT(*) FROM contatos")->fetchColumn();
 $novos_contatos    = $pdo->query("SELECT COUNT(*) FROM contatos WHERE lido = 0")->fetchColumn();

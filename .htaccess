@@ -1,11 +1,19 @@
 Options -Indexes
 RewriteEngine On
 
+# Bloqueia acesso direto a arquivos sensíveis
+<FilesMatch "^\.env(\.example)?$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^post/([a-z0-9-]+)/?$  pages/post.php?slug=$1     [QSA,L]
-RewriteRule ^blog/?$               pages/blog.php             [QSA,L]
-RewriteRule ^servicos/?$           pages/servicos.php         [L]
-RewriteRule ^sobre/?$              pages/sobre.php            [L]
-RewriteRule ^contato/?$            pages/contato.php          [QSA,L]
+RewriteRule ^post/([a-z0-9-]+)/?$    pages/post.php?slug=$1        [QSA,L]
+RewriteRule ^blog/?$                  pages/blog.php                [QSA,L]
+RewriteRule ^servicos/?$              pages/servicos.php            [L]
+RewriteRule ^sobre/?$                 pages/sobre.php               [L]
+RewriteRule ^contato/?$               pages/contato.php             [QSA,L]
+RewriteRule ^descadastrar/?$          pages/descadastrar.php        [QSA,L]
+RewriteRule ^politica-privacidade/?$  pages/politica-privacidade.php [L]
