@@ -1,0 +1,27 @@
+:root {
+  --verde-escuro:  #1B4332;
+  --verde-medio:   #2D6A4F;
+  --verde-claro:   #52B788;
+  --verde-suave:   #D8F3DC;
+  --branco:        #FAFAFA;
+  --cinza-claro:   #F4F4F0;
+  --cinza-medio:   #9A9A8A;
+  --cinza-escuro:  #3D3D35;
+  --preto:         #1A1A14;
+  --accent:        #639922;
+
+  --fonte-titulo:  'Playfair Display', Georgia, serif;
+  --fonte-corpo:   'Inter', system-ui, sans-serif;
+
+  --raio-sm:   6px;
+  --raio-md:   12px;
+  --raio-lg:   20px;
+  --raio-full: 999px;
+
+  --sombra-sm: 0 1px 3px rgba(0,0,0,.08);
+  --sombra-md: 0 4px 16px rgba(0,0,0,.10);
+
+  --max-w: 1160px;
+  --gap:    clamp(1rem, 4vw, 2rem);
+  --secao: clamp(3rem, 8vw, 6rem);
+}

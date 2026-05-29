@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://localhost:8000/</loc>        <priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>http://localhost:8000/sobre</loc>   <priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>http://localhost:8000/servicos</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>http://localhost:8000/blog</loc>    <priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>http://localhost:8000/contato</loc> <priority>0.7</priority><changefreq>monthly</changefreq></url>
+</urlset>
