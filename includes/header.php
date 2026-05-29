@@ -15,3 +15,4 @@ function nav_ativo(string $pagina, string $atual): string {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
+<?php require_once __DIR__ . '/cookie-banner.php'; ?>

@@ -15,7 +15,8 @@ $rotas = [
     '/servicos' => 'pages/servicos.php',
     '/blog'     => 'pages/blog.php',
     '/contato'  => 'pages/contato.php',
-    '/descadastrar' => 'pages/descadastrar.php',
+    '/descadastrar'       => 'pages/descadastrar.php',
+    '/politica-privacidade' => 'pages/politica-privacidade.php',
 ];
 
 if (isset($rotas[$uri])) {
