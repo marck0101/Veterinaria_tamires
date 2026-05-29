@@ -20,7 +20,7 @@
       <div class="footer__col">
         <h4>Contato</h4>
         <ul>
-          <li><a href="https://wa.me/5554999999999">WhatsApp</a></li>
+          <li><a href="https://wa.me/5555969595660">WhatsApp</a></li>
           <li><a href="https://instagram.com/">Instagram</a></li>
           <li><a href="mailto:tamires@email.com">E-mail</a></li>
         </ul>

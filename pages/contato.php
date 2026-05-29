@@ -36,7 +36,7 @@ if (!in_array($intencao_pre, $validas)) $intencao_pre = '';
           <div>
             <h3>Prefere o WhatsApp?</h3>
             <p>Para situações de urgência ou dúvidas rápidas, fale direto pelo WhatsApp.</p>
-            <a href="https://wa.me/5554999999999?text=Olá%20Tamires%2C%20preciso%20de%20atendimento%20veterinário."
+            <a href="https://wa.me/5555969595660?text=Olá%20Tamires%2C%20preciso%20de%20atendimento%20veterinário."
                target="_blank" class="btn btn--primario" style="margin-top:.75rem;font-size:.85rem;">
               Chamar no WhatsApp
             </a>
@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mostrarAviso('erro',
           'Algo deu errado.',
           `${msg}<br><br>Se o problema persistir, entre em contato diretamente pelo
-           <a href="https://wa.me/5554999999999" target="_blank" style="color:inherit;font-weight:700;text-decoration:underline;">
+           <a href="https://wa.me/5555969595660" target="_blank" style="color:inherit;font-weight:700;text-decoration:underline;">
              WhatsApp ↗
            </a>.`
         );
@@ -444,7 +444,7 @@ document.addEventListener('DOMContentLoaded', () => {
       mostrarAviso('erro',
         'Sem conexão com a internet.',
         `Verifique o sinal do celular e tente novamente.<br><br>Ou fale direto pelo
-         <a href="https://wa.me/5554999999999" target="_blank" style="color:inherit;font-weight:700;text-decoration:underline;">
+         <a href="https://wa.me/5555969595660" target="_blank" style="color:inherit;font-weight:700;text-decoration:underline;">
            WhatsApp ↗
          </a>.`
       );

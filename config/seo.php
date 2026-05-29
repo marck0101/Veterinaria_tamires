@@ -33,7 +33,7 @@ function seo_tags(array $opts = []): void {
     "name": "Tamires Müller Serviços Veterinários",
     "description": "<?= addslashes($desc) ?>",
     "url": "<?= $base ?>",
-    "telephone": "+55-54-99999-9999",
+    "telephone": "+55-55-96959566",
     "email": "tamires@email.com",
     "priceRange": "$$",
     "image": "<?= htmlspecialchars($imagem) ?>",

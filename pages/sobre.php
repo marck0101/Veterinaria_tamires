@@ -24,7 +24,7 @@ require_once __DIR__ . '/../includes/header.php';
         </p>
         <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.75rem;">
           <a href="/contato?intencao=clinica" class="btn btn--primario">Solicitar visita</a>
-          <a href="https://wa.me/5554999960582" target="_blank" class="btn btn--outline">WhatsApp</a>
+          <a href="https://wa.me/5555969595660" target="_blank" class="btn btn--outline">WhatsApp</a>
         </div>
       </div>
       <div class="sobre-hero__foto">
