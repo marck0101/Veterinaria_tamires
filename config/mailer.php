@@ -4,14 +4,15 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/env.php';
 
 define('MAIL_HOST',     'smtp.gmail.com');
 define('MAIL_PORT',     587);
-define('MAIL_USER',     'tamiresmuller@gmail.com'); // seu Gmail
-define('MAIL_PASS',     'COLE_SENHA_DE_APP_AQUI');  // senha de app Google
-define('MAIL_FROM',     'tamiresmuller@gmail.com');
+define('MAIL_USER',     env('MAIL_USER', 'tamiresmuller@gmail.com')); // Gmail que envia
+define('MAIL_PASS',     env('MAIL_PASS', ''));  // senha de app do Google, só no .env
+define('MAIL_FROM',     env('MAIL_USER', 'tamiresmuller@gmail.com'));
 define('MAIL_FROM_NAME','Tamires Müller Veterinária');
-define('SITE_URL',      'http://localhost:8000');
+define('SITE_URL',      rtrim(env('SITE_URL', 'http://localhost:8000'), '/')); // link de descadastro
 
 function criarMailer(): PHPMailer {
     $mail = new PHPMailer(true);

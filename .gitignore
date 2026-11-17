@@ -4,11 +4,11 @@
 # Dependências PHP
 vendor/
 
-# Dumps de banco de dados
+# Dumps de banco de dados (backups com dados reais não vão para o Git)
 *.sql
+!database/schema.sql
 
-# Configurações de conexão com credenciais
-config/conexao.php
+# config/conexao.php agora lê o .env e PODE ir para o Git (sem senha nele)
 config/db.php
 
 # Editor / sistema

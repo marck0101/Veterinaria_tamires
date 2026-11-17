@@ -7,6 +7,9 @@ RewriteEngine On
     Deny from all
 </FilesMatch>
 
+# Estrutura do banco e scripts de manutenção não são públicos
+RewriteRule ^database/ - [F,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
